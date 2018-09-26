@@ -8,10 +8,7 @@ const Navbar =  props => (
     <a className="nav-item" id="navtitle" href="/">Clicky Game</a>
 
 
-  <a className="nav-item" id="guessResult"> {props.children}</a>
-
-
-    <a className="nav-item" id="Score">Score: 0 | Top Score: 0</a>
+  {props.children}
 
 </nav>
 )

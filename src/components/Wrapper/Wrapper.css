@@ -1,7 +1,6 @@
 .container{
-
     display: block;
-    background-image: url("/img/jumbotron.jpg");
+    background-image: url("../../jumbotron.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color:darkgray;
